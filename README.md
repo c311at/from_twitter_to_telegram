@@ -1,4 +1,12 @@
 ## Twitter >> Telegram
+
+## installing Heroku
+
+#### The Easy Way
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+
 ### Auto post tweets from Twitter, to a Telegram Channel bot
 
 This script simply takes a twitter user name, and fetches the latest tweets

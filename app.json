@@ -1,0 +1,39 @@
+{
+    "name": "Twitter to Telegram",
+    "description": "Twitter to Telegram",
+    "keywords": [
+      "telegram",
+      "twitter",
+      "post",
+      "tweet"
+    ],
+    "repository": "https://github.com/c311at/from_twitter_to_telegram",
+    "env": {
+      "WEBHOOK": {
+        "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+        "value": "ANYTHING"
+      },
+      "APP_KEY": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": ""
+      },
+      "APP_SECRET": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": ""
+      },
+      "OAUTH_TOKEN": {
+        "description": "twitter client ID",
+        "value": ""
+      },
+      "OAUTH_TOKEN_SECRET": {
+        "description": "twitter client scret key",
+        "value": "",
+        "required": false
+      },
+    "addons": [
+    ],
+    "buildpacks": [{
+      "url": "heroku/python"
+    }]
+     } 
+}
